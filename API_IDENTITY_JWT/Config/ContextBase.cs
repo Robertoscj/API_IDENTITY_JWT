@@ -35,8 +35,8 @@ namespace WebApi.Config
 
         public string ObterStringConexao()
         {
-            //return "Data Source=NBQSP-FC693;Initial Catalog=API_DEV_NET_CORE;Integrated Security=False;User ID=sa;Password=1234;Connect Timeout=15;Encrypt=False;TrustServerCertificate=False";
-            return "Data Source=LAPTOP-TL23CHLD;Initial Catalog=API_DEV_NET_CORE;Integrated Security=True"; // Evitar
+            //return "Data Source=<Server>;Initial Catalog=DB;Integrated Security=False;User ID=sa;Password=1234;Connect Timeout=15;Encrypt=False;TrustServerCertificate=False";
+            return "Data Source=<Server>;Initial Catalog=DB;Integrated Security=True"; // Evitar
         }
     }
 }
